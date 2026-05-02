@@ -1,10 +1,17 @@
 @charset "utf-8";
 
-p{
+h1.headline{
     color: red;
-    background-color: aqua;
 }
 
-div{
-    margin-bottom: 200pxz;
+.abc{
+    color: red;
+}
+
+.adc > p{
+    color: red;
+}
+
+.abc > a:hover{
+    color: red;
 }
