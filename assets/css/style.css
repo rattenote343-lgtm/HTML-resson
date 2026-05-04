@@ -6,6 +6,12 @@ body {
     line-height: 1.5;
     color: #333;
 }
+label, input, textarea, select, button{
+    cursor: pointer;
+}
+button{
+    border: 0;
+}
 
 .section {
     padding: 30px 15px;
@@ -20,6 +26,9 @@ body {
     margin-top: 40px;
     text-align: center;
 
+}
+.section-secounday{
+    background-color: #bbb;
 }
 
 .about {
@@ -130,7 +139,7 @@ body {
     overflow: hidden;
 }
 
-.botton {
+.button {
     display: inline-block;
     color: #fff;
     font-weight: bold;
@@ -142,6 +151,54 @@ body {
     box-shadow: 5px 5px 0 #bbb;
     transition: box-shadow .25s;
 }
-.botton:hover{
+.button:hover{
     box-shadow: 0 0 0 #bbb;
+}
+.button.button-submission{
+    background: #92d3ca;
+}
+
+/* 
+.select, .input, .radio, .textarea
+ */
+.select{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+.input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+.radio {
+    margin: 0 10px;
+}
+.textarea{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+    min-height: 100px;
+}
+
+/* 
+form
+*/
+.form-table{
+    margin: 0 auto;
+}
+/* .form-table tr {}*/
+.form-table th{
+    padding: 10px;
+    text-align: left;
+}
+.form-table td{
+    padding: 10px;
+}
+.form-button{
+    margin-top: 20px;
+    text-align: center;
 }
